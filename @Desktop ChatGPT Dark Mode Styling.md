@@ -1,14 +1,13 @@
 ## Overview 
 
-This project involves implementing a custom CSS styling to achieve a fully dark mode for the Desktop ChatGPT application by [lencx (lencx) (github.com)](https://github.com/lencx). The goal is to transform the default appearance, replacing gray shades with a sleek and consistent black color scheme.
-
 ## Results 
 
 ### Before 
-![[before.jpg]]
+
+![before](before.jpg)
 
 ### After 
-![[after.jpg]]
+![after](after.jpg)
 
 ## Code Implementation
 
@@ -64,22 +63,21 @@ To apply this dark mode styling to the Desktop ChatGPT application, execute the 
 
 ![[Desktop ChatGPT Dark Mode Styling Steps.mov]]
 
-1. Open Control Centre 
-	1. ![[control centre.jpg]]
-2. Go to Scripts and click edit next to `main.js`
-	1. ![[scripts area.jpg]]
-3. You should see this `main.js`
-	1. ![[edit main.js script.jpg]]
-4. Insert the complete snippet above into the `main.js` 
-	1. ![[insert script into main.js WITHOUT DELETING ANY PRE-EXISTING CODE.jpg]]
-5. Save.
-	1. ![[save changes.jpg]]
-6. Reload.
-	1. ![[script saved successfully & reload.jpg]]
+1. Open Control Centre
+	1. ![control_centre](control%20centre.jpg)
+3. Go to Scripts and click edit next to `main.js`
+	1. ![scripts area](scripts%20area.jpg)
+4. You should see this `main.js`
+	1. ![edit script](edit%20main.js%20script.jpg)
+5. Insert the complete snippet above into the `main.js` 
+	1. ![insert script](insert%20script%20into%20main.js%20WITHOUT%20DELETING%20ANY%20PRE-EXISTING%20CODE.jpg)
+6. Save.
+	1. ![save](save%20changes.jpg)
+7. Reload.
+	1. ![success](script%20saved%20successfully%20&%20reload.jpg)
 
 
-> [!DANGER] 
-> Do not delete any pre-existing code in the `main.js` file. Just insert the snipped below it.
+> :warning: Do not delete any pre-existing code in the `main.js` file. Just insert the snipped below it.
 
 ## Conclusion
 
